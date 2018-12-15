@@ -6,15 +6,15 @@
    Case Problem 3
 
    Calendar Style Sheet
-   Author: 
-   Date:   
+   Author: Dajah Medina
+   Date:   12.13.18
 
    Filename:   lht_tables.css
 
 */
 
 /* ===============================
-   Mobile Styles: 0px to 640px 
+   Mobile Styles: 0px to 640px
    ===============================
 */
 @media only screen and (max-width: 640px) {
@@ -38,9 +38,28 @@
         font-size: 1.5em;
         line-height: 2em;
     }
+    td{
+      border: 1px dotted gray;
+      color: rgb(11, 12, 145);
+      position: relative;
+      padding-left: 40%;
+      min-height: 40px;
+    }
+
+    :nth-of-type(odd tr){
+      background-color: rgb(255, 235, 178);
+      border: 2px solid gray;
+    }
 }
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
+@media only screen and (min-width: 640px) {
+  table{
+    background-image: url(lht_photo1.png) no-repeat;
+    border-right: width:40%;
+  }
+
+}
