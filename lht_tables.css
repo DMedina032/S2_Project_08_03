@@ -61,5 +61,19 @@
     background-image: url(lht_photo1.png) no-repeat;
     border-right: width:40%;
   }
+  th td{
+    border: 1px solid gray;
+    font-size: 0.85em;
+    weight: normal;
+    padding: 5px;
+    text-align: top;
+    width: 14.28%;
+    word-wrap:
+  }
+
+tr{
+  background-color: semi-transperent rgba(171, 171, 171, 0.6);
+
+}
 
 }
